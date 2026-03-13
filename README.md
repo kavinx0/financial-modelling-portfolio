@@ -1,114 +1,66 @@
-### financial-modelling-portfolio
-This repository contains a collection of data analytics projects demonstrating practical skills in **SQL**, **Python**, and analytical problem-solving using real-world style datasets.
+#Financial Modelling & Market Analysis Portfolio
 
-The projects focus on answering meaningful business questions, analysing trends and behaviour, and communicating insights clearly through structured analysis and documentation.
-
+This repository contains a collection of financial modelling and market analysis projects demonstrating practical skills in Python, probability modelling, and data-driven analysis of financial and trading markets. The projects explore how market data, probabilities, and simulations can be used to analyse uncertainty, evaluate potential trading opportunities, and study patterns within financial markets. The focus is on building structured analytical tools and models that can be used to experiment with market behaviour and decision-making under uncertainty.
 
 ## 🎯 Portfolio Objectives
 
 This portfolio is designed to:
-- Demonstrate industry-standard data analytics workflows
-- Showcase analytical thinking and problem-solving skills
-- Apply SQL and Python to real-world style datasets
-- Communicate insights clearly for technical and non-technical audiences
-- Build a strong foundation for entry-level data analytics roles
-
+- Demonstrate practical financial modelling and analytical workflows
+- Apply Python to analyse financial and market-based datasets
+- Explore probability, simulation, and expected value in market environments
+- Build tools that collect, process, and analyse market data
+- Showcase structured analytical thinking and modelling approaches
+- Develop a strong foundation for roles in data analytics, fintech, and financial technology
 
 ## 📁 Projects
 
-### 01. Customer Purchase & Retention Analysis ([view project](./01_Customer_Analysis)) 
-Analysis of customer transaction data to understand revenue trends, repeat purchasing behaviour, and customer retention patterns.
+### 01. Hermes — Prediction Market Analysis System ([view project](./01_Hermes)) 
+Hermes is a prediction market analysis system designed to collect and analyse Polymarket event contracts. The project explores how probability modelling and expected value calculations can be used to evaluate whether market prices accurately reflect the likelihood of real-world outcomes.
+
+The system gathers market data, evaluates implied probabilities, and applies analytical models to identify potential pricing inefficiencies within prediction markets.
 
 **Key focus areas:**
-- Revenue and sales trends over time
-- Repeat vs one-time customer behaviour
-- High-value customers and products
-- Actionable business insights and recommendations
+- Collection and processing of prediction market data
+- Analysis of implied market probabilities
+- Bayesian probability updates based on new information
+- Expected value (EV) evaluation of market contracts
+- Simulation and paper-trading experimentation
 
 **Tools & Technologies:**
-- SQL (joins, aggregations, window functions)
-- Python (Pandas, NumPy, Matplotlib)
-- Jupyter Notebook
+- Python
+- Pandas / NumPy
+- REST APIs (Polymarket market data)
+- Probability and Bayesian modelling
+- Jupyter Notebook / Python scripts
 
 ---
-
-### 02. Funnel & Cohort Analysis (in progress)
-Analysis of user journeys and conversion funnels, including cohort-based retention analysis to understand behavioural patterns over time.
-
-**Key focus areas:**
-- Funnel drop-off and conversion rates
-- Cohort-based retention analysis
-- Behavioural trends across user segments
-
-**Tools & Technologies:**
-- SQL (event-based analysis, window functions)
-- Python (Pandas, Matplotlib)
-- Jupyter Notebook
-
----
-
-### 03. Data Quality & Validation (in progress)
-Exploration of data quality and validation techniques to identify inconsistencies, missing values, and anomalies in analytical datasets.
-
-**Key focus areas:**
-- Data profiling and completeness checks
-- Detection of anomalies and outliers
-- Validation of business rules and assumptions
-- Improving reliability of analytical outputs
-
-**Tools & Technologies:**
-- SQL (data validation queries)
-- Python (Pandas, NumPy)
-- Jupyter Notebook
-
----
-
-### 04. Executive KPI & Revenue Performance Analysis (in progress)
-
-**Key Focus Areas**
-
-- Executive-level revenue KPIs and performance metrics
-- Revenue trends and growth patterns over time
-- Revenue concentration and dependency analysis (e.g. top customers/products)
-- Repeat customer contribution and retention indicators
-- Identification of key business risks and opportunities
-- Clear, decision-oriented insights and recommendations
-
-**Tools & Technologies**
-- Python (Pandas, NumPy)
-- SQL (aggregations, grouping, KPI calculations)
-- Jupyter Notebook
-- Matplotlib (lightweight, explanatory visualisations)
-
----
-
 
 ## 🛠 Core Skills Demonstrated
 
 Across the projects in this portfolio, the following skills are demonstrated:
 
-- Data extraction and transformation using SQL  
-- Exploratory data analysis using Python  
-- Analytical thinking and problem decomposition  
-- Data quality awareness and validation  
-- Clear communication of insights and findings  
-- Structured documentation and reproducible analysis  
+- Financial modelling and probabilistic reasoning
+- Market data collection and API integration
+- Expected value and decision analysis
+- Python-based analytical modelling
+- Structured experimentation and analysis
+- Clear documentation of modelling assumptions and results
 
 
 ## 📂 Repository Structure
 
 Each project folder follows a consistent structure:
-- `README.md` — project overview and objectives  
-- SQL scripts — queries used for analysis  
-- Jupyter notebooks — exploratory analysis and visualisation  
-- Supporting files — data descriptions and written insights  
+- `README.md` — project overview and objectives
+- Python scripts — data collection, modelling, and analysis logic
+- Jupyter notebooks — exploratory analysis and experimentation
+- Supporting files — documentation of methodology and assumptions
 
 This structure reflects common industry practices and ensures clarity and reproducibility.
 
 
 ## 📌 Notes
 
-- Projects are built incrementally and reflect ongoing learning and skill development.
-- Datasets used are either publicly available or representative of real-world analytical scenarios.
-- The emphasis is on correctness, clarity, and analytical reasoning rather than dashboard-heavy presentation.
-- Right now project 1 has been completed, 2 and 3 are partially completed but yet to commit and 4 is still underway
+- Projects are developed incrementally and reflect ongoing learning and experimentation.
+- Market data sources are drawn from publicly available APIs and prediction market platforms.
+- The emphasis is on analytical reasoning, modelling clarity, and reproducible analysis rather than purely automated trading systems.
+- Additional projects related to financial modelling, simulations, and market analysis will be added over time as the portfolio expands.
